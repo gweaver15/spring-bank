@@ -10,8 +10,8 @@ public class Transaction {
 	private Long toAccountId;
 	private BigDecimal amount;
 	private LocalDateTime timestamp;
-	private String type; // e.g. TRANSFER, DEPOSIT, WITHDRAWAL
-	private String status; // e.g. PENDING, COMPLETED, FAILED
+	private String type;
+	private String status;
 	private String description;
 
 	public Transaction() {

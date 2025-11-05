@@ -7,8 +7,8 @@ public class Account {
 	private Long id;
 	private String accountNumber;
 	private BigDecimal balance;
-	private Long userId; // owner reference
-	private String type; // e.g. CHECKING, SAVINGS
+	private Long userId;
+	private String type;
 
 	public Account() {
 		this.balance = BigDecimal.ZERO;
